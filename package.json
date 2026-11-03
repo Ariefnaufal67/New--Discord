@@ -1,0 +1,26 @@
+{
+  "name": "discord-serverless-bot",
+  "version": "1.0.0",
+  "description": "Discord Slash Command Bot running on Vercel Serverless Functions with Groq AI & Tavily Search",
+  "type": "module",
+  "main": "api/interactions.js",
+  "scripts": {
+    "register": "node register-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "serverless",
+    "vercel",
+    "groq",
+    "tavily",
+    "slash-commands",
+    "http-interactions"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "tweetnacl": "^1.0.3"
+  }
+}
